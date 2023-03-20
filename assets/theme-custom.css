@@ -7,4 +7,16 @@
     display: grid;
     align-items: center;
     padding: 0 5rem;
+    grid-template-areas: "navigation heading icons";
+    grid-template-columns: 1fr auto 1fr;
+    column-gap: 2rem;
  }
+ .header__canvas-icon{
+   height: 4.4rem;
+    width: 4.4rem;
+    margin-inline: 3rem;
+ }
+ @media screen and (max-width: 1000px){
+  .header-menu {
+    display: none;
+}}

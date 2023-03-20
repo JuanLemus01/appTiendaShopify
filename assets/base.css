@@ -2081,9 +2081,6 @@ input[type='checkbox'] {
   margin: 0;
 }
 
-.quantity__input[type='number'] {
-  -moz-appearance: textfield;
-}
 
 .quantity__rules {
   margin-top: 1.2rem;
@@ -2401,6 +2398,7 @@ product-info .loading-overlay:not(.hidden) ~ *,
   display: flex;
   grid-area: icons;
   justify-self: end;
+  margin-right: 1rem;
 }
 
 .header__icon:not(.header__icon--summary),
